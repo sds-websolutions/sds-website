@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Desk Solutions | We design, organise and write for you</title>
+<meta name="description" content="Smart Desk Solutions: web design, logo design, content writing, video editing and data entry.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap bar">
+<a href="index.html" class="logo" aria-label="Smart Desk Solutions home"><span>S<b>D</b>S</span><small>SMART DESK<br>SOLUTIONS</small></a>
+<nav id="nav"><a href="index.html" class="active">Home</a><a href="services.html">Services &amp; Projects</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+<a href="contact.html" class="btn btn-dark">Get in Touch</a>
+<button class="menu-btn" aria-label="Menu" aria-expanded="false">&#9776;</button>
+</div></header>
+<main>
+<div class="wrap hero" id="top">
+<div><div class="eyebrow">SMART DESK SOLUTIONS</div>
+<h1>We design, organise and write for <span class="accent">you.</span></h1>
+<p>A premier digital agency helping your business grow with smart solutions.</p>
+<div class="btns"><a href="services.html" class="btn btn-dark">Explore Services</a><a href="contact.html" class="btn btn-orange">Contact Us</a></div></div>
+<div class="hero-img"><span>SDS</span></div>
+</div>
+<section><div class="wrap">
+<div class="head-row"><div><div class="eyebrow">OUR SERVICES</div><h2>Smart Solutions<br>Under One Roof</h2></div><a href="services.html" class="btn btn-dark">View All Services</a></div>
+<div class="grid g5">
+<div class="card service-mini"><span class="icon">&lt;/&gt;</span>Web Design &amp; Development</div>
+<div class="card service-mini"><span class="icon">&#127912;</span>Logo Design</div>
+<div class="card service-mini"><span class="icon">&#128221;</span>Content Writing</div>
+<div class="card service-mini"><span class="icon">&#127916;</span>Video Editing</div>
+<div class="card service-mini"><span class="icon">&#9638;</span>And More</div>
+</div></div></section>
+<section><div class="wrap">
+<div class="head-row"><div><div class="eyebrow">OUR PROJECTS</div><h2>Ideas into Impact</h2><p class="muted">Explore our recent work that reflects creativity and quality.</p></div><a href="services.html#projects" class="btn btn-dark">View All Projects</a></div>
+<div class="grid g3">
+<a href="#" class="project"><div class="thumb">LearnSkart</div><h3>LearnSkart</h3><p>E-Learning Platform</p></a>
+<a href="#" class="project"><div class="thumb">Bus Expo</div><h3>Kanyakumari Bus Expo</h3><p>Bus Route App</p></a>
+<a href="#" class="project"><div class="thumb">E-Commerce</div><h3>E-Commerce</h3><p>Website</p></a>
+</div>
+</div></section>
+<section><div class="wrap"><div class="contact-box">
+<div><h2>Let&rsquo;s Build Something Together!</h2><p style="color:#c8d3e1;margin:8px 0 22px">Get in touch with us for your next project.</p>
+<p>Email us<br><a href="mailto:smartdesksolutions.sds@gmail.com"><strong>smartdesksolutions.sds@gmail.com</strong></a></p>
+<p style="margin-top:10px">Tamil Nadu, India</p>
+<div class="socials"><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="Facebook">f</a></div></div>
+<form id="enquiry">
+<h3>Tell us about your project</h3><p class="muted" style="font-size:.85rem">A little detail is all we need to get started.</p>
+<div class="row"><div><label for="name">Your name *</label><input id="name" name="name" placeholder="Full name" required></div>
+<div><label for="email">Email address *</label><input id="email" name="email" type="email" placeholder="you@example.com" required></div></div>
+<label for="service">What can we help with? *</label>
+<select id="service" name="service" required><option value="">Choose a service</option><option>Web Design &amp; Development</option><option>Logo Design</option><option>Content Writing</option><option>Video Editing</option><option>Data Entry</option><option>Other</option></select>
+<label for="details">Tell us a little more *</label>
+<textarea id="details" name="details" placeholder="What are you hoping to create? Share your idea, goals or timeline..." required></textarea>
+<button class="btn btn-orange" style="margin-top:18px" type="submit">Send enquiry</button>
+<p id="msg" role="status"></p></form>
+</div></div></section>
+</main>
+<footer><div class="wrap">
+<div class="foot">
+<div><a href="index.html" class="logo"><span>S<b>D</b>S</span></a>
+<div class="socials"><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="Facebook">f</a></div>
+<p class="muted" style="margin-top:14px;font-size:.9rem">Tamil Nadu, India</p></div>
+<div><h4>Explore</h4><a href="index.html">Home</a><a href="services.html">Our work</a><a href="about.html">About us</a><a href="contact.html">Contact</a></div>
+<div><h4>What we do</h4><a href="services.html">Web design &amp; development</a><a href="services.html">Branding &amp; logo design</a><a href="services.html">Content &amp; video</a><a href="services.html">Data Entry</a></div>
+</div>
+<div class="copy"><p>&copy; 2026 Smart Desk Solutions. All rights reserved.</p><span><a href="#">Privacy policy</a><a href="#">Terms of use</a></span><a href="#top">Back to top &uarr;</a></div>
+</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
